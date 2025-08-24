@@ -31,7 +31,6 @@ detector_backends = [
     "mtcnn",
     "fastmtcnn",
     # "mediapipe", # crashed in mac
-    "retinaface",
     "yunet",
     "yolov8",
     "yolov11n",

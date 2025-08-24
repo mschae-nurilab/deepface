@@ -50,7 +50,7 @@ def verify(
         model_name (str): Model for face recognition. Options: VGG-Face, Facenet, Facenet512,
             OpenFace, DeepFace, DeepID, Dlib, ArcFace, SFace and GhostFaceNet (default is VGG-Face).
 
-        detector_backend (string): face detector backend. Options: 'opencv', 'retinaface',
+        detector_backend (string): face detector backend. Options: 'opencv',
             'mtcnn', 'ssd', 'dlib', 'mediapipe', 'yolov8', 'yolov11n', 'yolov11s', 'yolov11m',
             'centerface' or 'skip' (default is opencv)
 

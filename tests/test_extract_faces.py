@@ -119,7 +119,7 @@ def image_to_base64(image_path):
 
 
 def test_facial_coordinates_are_in_borders():
-    detectors = ["retinaface", "mtcnn"]
+    detectors = ["mtcnn"]
     expected_faces = [7, 6]
 
     img_path = "dataset/selfie-many-people.jpg"

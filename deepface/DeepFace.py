@@ -97,7 +97,7 @@ def verify(
         model_name (str): Model for face recognition. Options: VGG-Face, Facenet, Facenet512,
             OpenFace, DeepFace, DeepID, Dlib, ArcFace, SFace and GhostFaceNet (default is VGG-Face).
 
-        detector_backend (string): face detector backend. Options: 'opencv', 'retinaface',
+        detector_backend (string): face detector backend. Options: 'opencv',
             'mtcnn', 'ssd', 'dlib', 'mediapipe', 'yolov8', 'yolov11n', 'yolov11s', 'yolov11m',
             'centerface' or 'skip' (default is opencv).
 
@@ -193,7 +193,7 @@ def analyze(
         enforce_detection (boolean): If no face is detected in an image, raise an exception.
             Set to False to avoid the exception for low-resolution images (default is True).
 
-        detector_backend (string): face detector backend. Options: 'opencv', 'retinaface',
+        detector_backend (string): face detector backend. Options: 'opencv',
             'mtcnn', 'ssd', 'dlib', 'mediapipe', 'yolov8', 'yolov11n',  'yolov11s', 'yolov11m',
             'centerface' or 'skip' (default is opencv).
 
@@ -308,7 +308,7 @@ def find(
         enforce_detection (boolean): If no face is detected in an image, raise an exception.
             Set to False to avoid the exception for low-resolution images (default is True).
 
-        detector_backend (string): face detector backend. Options: 'opencv', 'retinaface',
+        detector_backend (string): face detector backend. Options: 'opencv',
             'mtcnn', 'ssd', 'dlib', 'mediapipe', 'yolov8', 'yolov11n', 'yolov11s', 'yolov11m',
             'centerface' or 'skip' (default is opencv).
 
@@ -414,7 +414,7 @@ def represent(
             Default is True. Set to False to avoid the exception for low-resolution images
             (default is True).
 
-        detector_backend (string): face detector backend. Options: 'opencv', 'retinaface',
+        detector_backend (string): face detector backend. Options: 'opencv',
             'mtcnn', 'ssd', 'dlib', 'mediapipe', 'yolov8', 'yolov11n', 'yolov11s', 'yolov11m',
             'centerface' or 'skip' (default is opencv).
 
@@ -483,7 +483,7 @@ def stream(
         model_name (str): Model for face recognition. Options: VGG-Face, Facenet, Facenet512,
             OpenFace, DeepFace, DeepID, Dlib, ArcFace, SFace and GhostFaceNet (default is VGG-Face).
 
-        detector_backend (string): face detector backend. Options: 'opencv', 'retinaface',
+        detector_backend (string): face detector backend. Options: 'opencv',
             'mtcnn', 'ssd', 'dlib', 'mediapipe', 'yolov8', 'yolov11n', 'yolov11s', 'yolov11m',
             'centerface' or 'skip' (default is opencv).
 
@@ -547,7 +547,7 @@ def extract_faces(
             as a string, numpy array (BGR), a file object that supports at least `.read` and is
             opened in binary mode, or base64 encoded images.
 
-        detector_backend (string): face detector backend. Options: 'opencv', 'retinaface',
+        detector_backend (string): face detector backend. Options: 'opencv',
             'mtcnn', 'ssd', 'dlib', 'mediapipe', 'yolov8', 'yolov11n', 'yolov11s', 'yolov11m',
             'centerface' or 'skip' (default is opencv).
 
@@ -631,7 +631,7 @@ def detectFace(
         target_size (tuple): final shape of facial image. black pixels will be
             added to resize the image (default is (224, 224)).
 
-        detector_backend (string): face detector backend. Options: 'opencv', 'retinaface',
+        detector_backend (string): face detector backend. Options: 'opencv',
             'mtcnn', 'ssd', 'dlib', 'mediapipe', 'yolov8', 'yolov11n', 'yolov11s', 'yolov11m',
             'centerface' or 'skip' (default is opencv).
 

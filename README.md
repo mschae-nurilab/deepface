@@ -210,7 +210,7 @@ All deepface functions accept optional detector backend and align input argument
 ```python
 backends = [
     'opencv', 'ssd', 'dlib', 'mtcnn', 'fastmtcnn',
-    'retinaface', 'mediapipe', 'yolov8', 'yolov11s',
+    'mediapipe', 'yolov8', 'yolov11s',
     'yolov11n', 'yolov11m', 'yunet', 'centerface',
 ]
 detector = backends[3]
