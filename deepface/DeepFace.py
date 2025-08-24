@@ -34,8 +34,8 @@ logger = Logger()
 # -----------------------------------
 # configurations for dependencies
 
-# users should install tf_keras package if they are using tf 2.16 or later versions
-package_utils.validate_for_keras3()
+# # users should install tf_keras package if they are using tf 2.16 or later versions
+# package_utils.validate_for_keras3()
 
 warnings.filterwarnings("ignore")
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
